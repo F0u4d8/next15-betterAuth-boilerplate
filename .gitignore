@@ -14,7 +14,7 @@
 db.sqlite
 
 /prisma/migrations
-/src/generated/prisma
+/src/generated
 
 # next.js
 /.next/
