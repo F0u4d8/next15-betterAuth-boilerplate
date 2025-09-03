@@ -78,13 +78,13 @@ export async function registerEmailAction(formData: FormData) {
   
         switch (errCode) {
           case "USER_ALREADY_EXISTS":
-            return { error: "Oops! Something went wrong. Please try again." };
+            return { error: "Oops! Something went wrong. Please try again. " };
           default:
             return { error: err.message };
         }
       }
   
-      return { error: "Internal Server Error" };
+      return { error: "Internal Server Error Please try again." };
     }
   }
 
