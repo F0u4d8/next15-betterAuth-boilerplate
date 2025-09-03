@@ -13,6 +13,9 @@
 /prisma/db.sqlite-journal
 db.sqlite
 
+/prisma/migrations
+/src/generated/prisma
+
 # next.js
 /.next/
 /out/
