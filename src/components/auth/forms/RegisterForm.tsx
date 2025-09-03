@@ -35,7 +35,7 @@ export default function RegisterForm() {
     toast.error(error);
     setIsPending(false);
   } else {
-    toast.success("Registration complete. You're all set.");
+    toast.success("Registration complete. You&apos;re all set.");
     router.push("/auth/register/success");
   }
  
