@@ -1,8 +1,7 @@
 import { betterAuth, type BetterAuthOptions } from "better-auth";
 import { nextCookies } from "better-auth/next-js";
 import { prismaAdapter } from "better-auth/adapters/prisma";
-import { createAuthMiddleware, APIError } from "better-auth/api";
-import { admin, customSession, magicLink } from "better-auth/plugins";
+import {  customSession } from "better-auth/plugins";
 import { prisma } from "./db";
 
 
